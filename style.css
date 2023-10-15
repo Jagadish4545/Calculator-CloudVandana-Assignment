@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+body{
+    padding: 20vh;
+    background-color: rgb(98, 26, 26);
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.show-oper{
+    background-color: white;
+    height: 8vh;
+    width: 34.3vh;
+    text-align:center;
+    font-size: xx-large;
+    border: none;
+    padding: 0;
+}
+.clear {
+    height: 8vh;
+    width: 10vh;
+    color: #fff;
+    background-color: lightseagreen;
+    border: none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers button{
+    width: 11vh;
+    height: 8vh;
+    padding: 0;
+    color: #fff;
+    background-color: black;
+    border: none;
+    margin: 0;
+}
+.numbers div{
+    background-color: black;
+}
+
+.symbols button{
+    width: 10vh;
+    height: 8vh;
+    color: #fff;
+    background-color: gray;
+    border: none;
+}
